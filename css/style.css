@@ -17,3 +17,46 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header{
+    display:flex;
+    justify-content:center;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.main{
+    display:flex;
+    width:100%;
+}
+.indexPic{
+    width:100%;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.aboutMain{
+    display:flex;
+}
+.leftPane{
+    width:50%;
+}
+.rightPane{
+    width:50%;
+}
+
+
+.filmography{
+    display:flex;
+    justify-content:space-around;
+}
+.poster{
+    width:33%;
+}
+.poster-image{
+    width:300px;
+    height:300px;
+}
