@@ -55,31 +55,49 @@ a {
     background-color:#ecddca;
 }
 .leftPane{
-    width:50%;
+    width:54%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size:20px;
 }
 .rightPane{
-    width:50%;
+    width:46%;
 }
 
 
 .gallery{
-    display:flex;
     background-color:#ecddca;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
 }
-
+.thumbnail{
+    width:33%;
+}
+.thumbnail-image{
+    width:300px;
+    margin:25px;
+    border:5px solid black;
+    padding:1px;
+}
 
 
 .filmography{
     display:flex;
     justify-content:space-around;
     background-color:#ecddca;
+    flex-wrap:wrap;
 }
 .poster{
     width:33%;
 }
 .poster-image{
     width:300px;
-    height:300px;
+    height:450px;
+    margin:25px;
+    margin-top:4px;
+    border:5px solid black;
+    padding:1px;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
 }
